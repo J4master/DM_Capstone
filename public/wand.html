@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>HP Search</title>
+</head>
+<body id="wand-body">
+    <header class="logo">
+        <div>
+            <img src="https://www.shutterstock.com/image-vector/magic-wand-elder-isolated-on-260nw-2189154945.jpg" id="wand"/>
+        </div>
+        <h1 class="title">Duel!</h1>
+        <nav>
+            <a class="nav-link" alt id="Home" href="index.html">Home</a>
+            <a class="nav-link" alt id="Patronus" href="patronus.html">Patronus Info</a>
+            <a class="nav-link" alt id="Spells" href="spells.html">Spells</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1 id="title">Duel!</h1>
+            <p>Click the 'Draw' button to draw 4 random cards and then choose 1 to be your duelist!</p>
+            <p>Once you have your duelist, click the 'DUEL!' button to fight a computer duelist!</p>
+        
+        
+            <button id="draw">Draw</button>
+        
+            <section>
+                <h2 id="choose-header">Choose 1!</h2>
+                <div id="choices" class="container"></div>
+            </section>
+        
+            <h2 id="results"></h2>
+            <button id="play-again">Play again!</button>
+        
+            <section class="container">
+                <section>
+                    <h2 id="your-duelist-header">Your Duelist</h2>
+                    <div id="player-dueslist" class="container"></div>
+                </section>
+                <section>
+                    <h2 id="comp-duelist-header">Computer Duelist</h2>
+                    <div id="comp-duelist" class="container"></div>
+                </section>
+            </section>
+        
+            <button id="duel">DUEL!</button>
+    </main>
+
+    <footer>
+        <div>
+            <button id="scroll-to-top">^Ascendio^</button>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="wand.js"></script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+* {
+    padding: 20px;
+    margin: 20px;
+
+  }
+
+#glasses {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 35%;
+    border: 5px dotted white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+#wand {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 35%;
+  border: 5px dotted white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#spells {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 35%;
+  border: 5px dotted white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#patronus {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 35%;
+  border: 5px dotted white;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+body {
+  background-image: url(https://wallpapers.com/images/featured/0f0g45ihwlijl35w.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#patronus-body {
+  background-image: url(https://pm1.narvii.com/6535/cc6e3148855b165ef2a67c5ce7c7b9efe32609d3_hq.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+#wand-body {
+  background-image: url(https://images3.alphacoders.com/130/1304933.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+#spells-body {
+  background-image: url(https://i.pinimg.com/originals/4d/02/66/4d0266a64f4e4432ff07cac517bd75f4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+footer {
+  opacity: 80%;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+    color: rgb(196, 21, 196);
+    font-size: 140px;
+
+  }
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: white;
+    opacity: 85%;
+    border-bottom: 3px solid black;
+    font-size: 20px;
+    border-radius: 3%;
+  }
+
+.nav-link:hover {
+    color: rgb(196, 21, 196);
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+.nav-link {
+ 
+  }
+
+.house-list {
+    padding: 15px;
+    margin: 15px;
+
+  }
+
+#houseInfo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  opacity: 80%;
+}
+
+#house-card {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 15px;
+  opacity: 90%;
+  align-items: center;
+  font-size: 27px;
+  text-emphasis-color: black;
+}
+
+.gryffindor {
+    background-color: red;
+    display: flex;
+  }
+
+#lion {
+  padding: 12px;
+  margin: 12px;
+  }
+
+.slytherin {
+  background-color: green;
+  display: flex;
+  }
+
+#snake {
+  padding: 12px;
+  margin: 12px;
+}
+
+.hufflepuff {
+  background-color: yellow;
+  display: flex;
+}
+
+#hufflepuff-title {
+
+}
+
+#badger {
+  padding: 12px;
+  margin: 12px;
+}
+
+.ravenclaw {
+  background-color: blue;
+  display: flex;
+}
+
+#raven {
+  padding: 12px;
+  margin: 12px;
+}
+
+.pt-desc {
+  /* background-color: rgb(202, 161, 199);
+  opacity: 93%; */
+}
+
+#gen-patronus-info {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+}
+
+#patronus-info {
+  font-size: 21px;
+  padding: 8px;
+  margin: 8px;
+  background-color: rgb(202, 161, 199);
+  opacity: 93%;
+}
+
+.pt-card {
+  border: solid black;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+  justify-content: center;
+  background-color: rgb(202, 161, 199);
+  opacity: 93%;
+  font-size: 20px;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+}
+
+#harry {
+
+}
+
+#char-patronus {
+
+}
+
+.pt-card-title {
+  padding: 15px;
+  margin: 15px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+}
+
+.my-pt-card-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+  padding: 15px;
+  margin: 15px;
+}
+
+.my-pt-card-desc {
+  font-size: 25px;
+}
+
+#my-pt-title-desc {
+  padding: 8px;
+  margin: 8px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+}
+
+#pine-marten {
+ 
+}
+
+.hp-api {
+  border: solid black;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  opacity: 70%;
+  margin-left: 700px;
+  margin-right: 700px;
+  max-width: 400px;
+  max-height: 100px;
+  min-height: 100px;
+  min-width:400px;
+  align-items: center;
+
+}
+
+#text:hover {
+box-shadow: 0px 0px 20px #b72cee;
+border: 2px solid black
+}
+
+#text {
+  border: 1px solid black
+}
+
+#submit:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #b72cee;
+}
+
+
+#character-info-container {
+  border: solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  opacity: 95%;
+  justify-content: center;
+
+}
+
+#scroll-to-top:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #b72cee;
+}
+
+#scroll-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.card {
+  border: solid black;
+  display: inline-block;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+
+}
+
+#character-info-container {
+  border: solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+#spell-title {
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(235, 51, 241);
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#spell-intro {
+  padding: 8px;
+  margin: 8px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+/* #spell-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+} */
+
+#generate-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #b72cee;
+}
+
+#generate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  position: relative;
+  left: 740px;
+}
+
+.actor-img {
+  height: 290px;
+  width: 240px;
+}
+
+.char-text {
+  font-size: 30px;
+}
+
+.spell-card {
+  font-size: 50px;
+  border: dotted 10px #b72cee;
+  align-items: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+#spell {
+
+}
+
+#spells-body {
+
+}
+
+.h1-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  padding: 8px;
+  margin: auto;
+}
+
+.h2-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.dlt-btn {
+position: relative;
+left: 760px;
+font-size: 15px;
+
+}
+
+.dlt-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #b72cee;
+}

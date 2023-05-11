@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>HP Search</title>
+</head>
+<body id="spells-body">
+    <header class="logo">
+        <div>
+            <img src="https://www.shutterstock.com/image-vector/modern-fire-logo-icon-design-260nw-442082605.jpg" id="spells"/>
+        </div>
+        <h1 class="title">Spells!</h1>
+        <nav>
+            <a class="nav-link" alt id="Home" href="index.html">Home</a>
+            <a class="nav-link" alt id="Patronus" href="patronus.html">Patronus Info</a>
+            <a class="nav-link" alt id="Wand" href="wand.html">Duel!</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1 id="spell-title">Random Spell Generator</h1>
+            <p id="spell-intro">Welcome to the random spell generator! Click the 'Generate Spell' button to learn about a random generated a spell!</p>
+            <button id="generate-btn">Generate Spell</button>
+        </div>
+        <div id="spell-display">
+            <p id="spell"></p>
+        </div>
+    </main>
+
+    <footer>
+        <!-- <div id="scroll-btn">
+            <button id="scroll-to-top">^Ascendio^</button>
+        </div> -->
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="spell.js"></script>
+</body>
+</html>
